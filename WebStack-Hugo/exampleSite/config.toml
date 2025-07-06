@@ -1,4 +1,4 @@
-baseURL               = "https://www.nianian.cn/"
+baseURL               = "https://site.nianian.cn/"
 languageCode          = "zh-CN"
 title                 = "嘉兰月 网址导航"
 theme                 = "WebStack-Hugo"
