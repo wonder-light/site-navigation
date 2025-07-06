@@ -2,7 +2,12 @@ name: Hugo Actions # 名字自取
 
 on:
   push:
-  workflow_dispatch:
+     # 忽略某些文件和目录，自行定义
+    paths-ignore:
+      - '.gitignore'
+      - '.gitattributes'
+      - 'README.md'
+    workflow_dispatch:
     branches:
       - main  # 这里的意思是当 main 分支发生 push 的时候，运行下面的 jobs
 
@@ -21,9 +26,13 @@ jobs:
           hugo-version: '0.122.0'	# 获取指定版本的 hugo
           extended: false
 
-      - name: Build Site
-        run: hugo --minify
-          
+      - name: Build Site  # hugo --themesDir ../ --baseURL https://site.nianian.cn/
+        run: |
+          cp -R exampleSite/* .
+          pwd
+          ls
+          hugo --minify
+
       - name: Deploy Pages
         uses: peaceiris/actions-gh-pages@v3	  # 一个自动发布 github pages 的 action
         with:
