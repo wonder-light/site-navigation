@@ -28,13 +28,10 @@ jobs:
 
       - name: Build Site  # hugo --themesDir ../ --baseURL https://site.nianian.cn/
         run: |
-          mkdir -p ./themes/WebStack-Hugo
-          mv -f ./static/* ./themes/WebStack-Hugo
-          mv -f ./layouts/* ./themes/WebStack-Hugo
-          cp -R exampleSite/* .
+          rm README.md LICENSE .gitattributes .gitignore
+          hugo --minify
           pwd
           ls
-          hugo --minify
 
       - name: Deploy Pages
         uses: peaceiris/actions-gh-pages@v3	  # 一个自动发布 github pages 的 action
