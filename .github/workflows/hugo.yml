@@ -28,6 +28,9 @@ jobs:
 
       - name: Build Site  # hugo --themesDir ../ --baseURL https://site.nianian.cn/
         run: |
+          mkdir -p ./themes/WebStack-Hugo
+          mv -f ./static/* ./themes/WebStack-Hugo
+          mv -f ./layouts/* ./themes/WebStack-Hugo
           cp -R exampleSite/* .
           pwd
           ls
