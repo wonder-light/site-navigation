@@ -77,54 +77,50 @@
 </script>
 
 <script>
+  function setNightMode() {
+    $('#body-bg').css('background-image', 'url({{ $.Site.Params.images.backgroundDark }})');
+    document.body.classList.remove('io-grey-mode');
+    document.body.classList.add('io-black-mode');
+    document.cookie = 'night=1;path=/';
+    $('.switch-dark-mode').attr('data-original-title', '日间模式');
+    $('.mode-ico').removeClass('icon-night');
+    $('.mode-ico').addClass('icon-light');
+    console.log('设置为黑暗模式');
+  }
+
+  function setLightMode() {
+    $('#body-bg').css('background-image', 'url({{ $.Site.Params.images.backgroundLight }})');
+    document.body.classList.remove('io-black-mode');
+    document.body.classList.add('io-grey-mode');
+    document.cookie = 'night=0;path=/';
+    $('.switch-dark-mode').attr('data-original-title', '夜间模式');
+    $('.mode-ico').removeClass('icon-light');
+    $('.mode-ico').addClass('icon-night');
+    console.log('设置为浅色模式');
+  }
+
   //夜间(日间)模式
   (function () {
-    if (document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, '$1') === '') {
-      if (new Date().getHours() > 22 || new Date().getHours() < 6) {
-        document.body.classList.remove('io-black-mode');
-        document.body.classList.add('io-grey-mode');
-        document.cookie = 'night=1;path=/';
-        console.log('夜间模式开启');
-      } else {
-        document.body.classList.remove('night');
-        document.cookie = 'night=0;path=/';
-        console.log('夜间模式关闭');
-      }
-    } else {
-      var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, '$1') || '0';
-      if (night == '0') {
-        document.body.classList.remove('night');
-      } else if (night == '1') {
-        document.body.classList.add('night');
-      }
+    let night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, '$1');
+    if (night === '') {
+      let isNight = new Date().getHours() > 22 || new Date().getHours() < 6;
+      night = isNight ? '1' : '0';
+    }
+    if (night === '0') {
+      document.body.classList.remove('night');
+      setLightMode();
+    } else if (night === '1') {
+      document.body.classList.add('night');
+      setNightMode();
     }
   })();
-  //夜间(日间)模式切换
-  // $("#search-bg").css("background-image", "url({{ $.Site.Params.images.searchImageL }})");   //默认浅色背景
-  $('#body-bg').css('background-image', 'url({{ $.Site.Params.images.backgroundLight }})');
 
   function switchNightMode() {
-    var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, '$1') || '0';
-    if (night == '0') {
-      //$("#search-bg").css("background-image", "url({{ $.Site.Params.images.searchImageL }})");
-      $('#body-bg').css('background-image', 'url({{ $.Site.Params.images.backgroundDark }})');
-      document.body.classList.remove('io-grey-mode');
-      document.body.classList.add('io-black-mode');
-      document.cookie = 'night=1;path=/';
-      console.log('light model');
-      $('.switch-dark-mode').attr('data-original-title', '日间模式');
-      $('.mode-ico').removeClass('icon-night');
-      $('.mode-ico').addClass('icon-light');
+    let night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, '$1') || '0';
+    if (night === '0') {
+      setNightMode();
     } else {
-      //$("#search-bg").css("background-image", "url({{ $.Site.Params.images.searchImageD }})");
-      $('#body-bg').css('background-image', 'url({{ $.Site.Params.images.backgroundLight }})');
-      document.body.classList.remove('io-black-mode');
-      document.body.classList.add('io-grey-mode');
-      document.cookie = 'night=0;path=/';
-      console.log('night model');
-      $('.switch-dark-mode').attr('data-original-title', '夜间模式');
-      $('.mode-ico').removeClass('icon-light');
-      $('.mode-ico').addClass('icon-night');
+      setLightMode();
     }
   }
 </script>
