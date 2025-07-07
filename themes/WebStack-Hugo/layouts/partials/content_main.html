@@ -5,7 +5,7 @@
 	    <!--正文网址导航--》
             <!-- {{ .term }} -->
             <div class="d-flex flex-fill">
-                <h4 class="text-gray text-lg mb-4">
+                <h4 class="text-white text-lg mb-4">
                     <i class="site-tag iconfont icon-tag icon-lg mr-1" id="{{ md5 .term }}"></i>
                     {{ .term }}
                 </h4>
@@ -22,7 +22,7 @@
 			去除 Tooltip -->
 			{{ if .qrcode }}
                             {{ if findRE "http.*?(.|\n)*?" .qrcode }}
-                    	        <a href="javascript:" target="" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-html="true" 
+                    	        <a href="javascript:" target="" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-html="true"
                                 title="<img src='{{ .qrcode }}' width='128'>">
                             {{ else }}
                                 <a href="javascript:" target="" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-html="true"
@@ -77,7 +77,7 @@
 	    <!--常用推荐-->
             <!-- {{ .taxonomy }} -->
             <div class="d-flex flex-fill">
-                <h4 class="text-gray text-lg mb-4">
+                <h4 class="text-white text-lg mb-4">
                     <i class="site-tag iconfont icon-tag icon-lg mr-1" id="{{ md5 .taxonomy }}"></i>
                     {{ .taxonomy }}
                 </h4>
@@ -94,14 +94,14 @@
 			-->
 			{{ if .qrcode }}
                             {{ if findRE "http.*?(.|\n)*?" .qrcode }}
-			        <a href="javascript:" target="" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-html="true" 
+			        <a href="javascript:" target="" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-html="true"
                                 title="<img src='{{ .qrcode }}' width='128'>">
                             {{ else }}
                                 <a href="javascript:" target="" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-html="true"
                                 title="<img src='{{ $.Site.Params.logosPath }}/{{ .qrcode }}' width='128'>">
                             {{ end }}
                         {{ else }}
-                            <a href="{{ .url }}" target="_blank" data-id="" data-url="{{ .url }}" 
+                            <a href="{{ .url }}" target="_blank" data-id="" data-url="{{ .url }}"
                             class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-original-title="{{ .description }}">
 			{{ end }}
                             <div class="card-body">
@@ -145,13 +145,13 @@
             <br />
             <!--END {{ .taxonomy }} -->
         {{ end }}
-    {{ end }}                        
+    {{ end }}
 
-    <h4 class="text-gray text-lg mb-4">
+    <h4 class="text-white text-lg mb-4">
         <i class="iconfont icon-book-mark-line icon-lg mr-2" id="friendlink"></i>友情链接
     </h4>
     <div class="friendlink text-xs card">
-        <div class="card-body"> 
+        <div class="card-body">
 	    {{ range .Site.Data.friendlinks }}
 	    <a href="{{ .url }}" title="{{ .description }}" target="_blank">{{ .title }}</a>
 	    {{ end }}
