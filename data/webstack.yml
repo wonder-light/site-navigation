@@ -746,7 +746,7 @@
           logo: ip138.com.ico
           url: https://www.ip138.com
           description: ip138 简介 ip138 ip地址查...，ip138官网入口网址
-    - term:  效率工具
+    - term: 效率工具
       links:
         - title: 记灵在线工具
           logo: remeins.com.ico
@@ -826,57 +826,7 @@
           logo: www.datatool.vip.ico
           url: https://www.datatool.vip/zh
           description: DataTool.vip是一个旨在简化从各种网站下载音频、视频和其他文件的服务
-    - term: 网络工具
-      links:
-        - title: 网速测试-测网速
-          logo: www.speedtest.cn.ico
-          url: https://www.speedtest.cn
-          description: 测速网提供免费在线网速测试
-        - title: 网易DNS检测工具
-          logo: none.png
-          url: https://nstool.netease.com
-          description: 网易本地DNS检测工具，打开自动获取当前网络地址并进行DNS判断
-        - title: 高精度IP定位
-          logo: www.opengps.cn.ico
-          url: https://www.opengps.cn/Data/IP/LocHighAcc.aspx
-          description: LBS，位置服务开发共享，ip定位，高精度IP定位，wifi定位，基站定位，浏览器HTML定位等技术交流共享
-        - title: IPv6网络检测小工具
-          logo: test-ipv6.com.ico
-          url: https://test-ipv6.com
-          description: IPv6网络检测小工具
-        - title: 阿里云域名DNS诊断工具
-          logo: zijian.aliyun.com.ico
-          url: https://zijian.aliyun.com
-          description: 阿里云DNS诊断、拔测
-        - title: BestTrace 客户端工具
-          logo: www.ipip.net.ico
-          url: https://www.ipip.net/product/client.html#besttrace
-          description: 从 Windows MACAndroidiOSLinux设备上发起 traceroute 请求，附带链路可视化
-        - title: TraceRoute路由查询
-          logo: tools.ipip.net.ico
-          url: https://tools.ipip.net/traceroute.php
-          description: 最好的TraceRoute工具，在线TraceRoute工具
-        - title: IP地址查询
-          logo: ip.skk.moe.ico
-          url: https://ip.skk.moe
-          description: IP地址查询官网入口网址，一个全方位的IP查询工具，除了基本的IP查询功能外，还提供了一系列实用的网络工具
-        - title: 在线查IP地址
-          logo: www.sojson.com.ico
-          url: https://www.sojson.com/ip
-          description: 在线查IP地址详细到门牌号，...
-        - title: 域名DNS检测工具
-          logo: www.sojson.com.ico
-          url: https://www.sojson.com/zz/checkdns.html
-          description: 域名DNS检测工具
-        - title: IP批量查询
-          logo: none.png
-          url: http://www.jsons.cn/ipbatch
-          description: 一行一个，IP地址批量查询
-        - title: IPv6 Test
-          logo: none.png
-          url: https://www.testipv6.net/cn/website
-          description: 测试你您的浏览器和网络是否...
-    - term:
+    - term: 免费图床
       links:
         - title: ImgBB
           logo: imgbb.com.ico
@@ -930,3 +880,176 @@
           logo: img.ink.ico
           url: https://img.ink
           description: 图片映客官网入口网址，水墨图床，免费专业的高速外链图床-免费高速图床-致力于创建一流的图片加速空间
+
+
+- taxonomy: 网络工具
+  icon: fas fa-globe fa-lg
+  list:
+    - term: 隧道工具
+      links:
+        - title: ChmlFrp
+          logo: chmlfrp.cn.ico
+          url: https://www.chmlfrp.cn/
+          description: 完全重构，全面升级！免费.高速.稳定.不限流量的端口映射工具
+        - title: SakuraFrp
+          logo: natfrp.com.ico
+          url: https://www.natfrp.com/
+          description: Sakura Frp 是一个免费的内网穿透工具专业为您提供内网穿透
+        - title: 飞鸽
+          logo: fgnwct.com.ico
+          url: https://www.fgnwct.com/
+          description: 飞鸽是一款免费、跨平台的、轻量级的内网穿透服务，客户端仅3.5M大小，且无需安装，解压即用
+        - title: Natapp
+          logo: natapp.cn.ico
+          url: https://natapp.cn/
+          description: Natapp-内网穿透 基于ngrok的国内高速内网映射工具
+        - title: Tabserve
+          logo: none.png
+          url: https://tabserve.dev/
+          description: 使用浏览器作为反向代理的安全且快速的本地主机 HTTPS URL
+        - title: Staqlab
+          logo: tunnel.staqlab.com.png
+          url: https://tunnel.staqlab.com/
+          description: 将您的本地主机暴露给互联网使用 Staqlab 隧道将本地主机上的端口暴露给互联
+        - title: Loophole
+          logo: loophole.cloud.png
+          url: https://loophole.cloud/
+          description: 不再需要端口转发、绕过防火墙或设置动态 DNS 的麻烦。做你最擅长的事情，编码。剩下的交给我们！
+        - title: 蜻蜓映射
+          logo: beesdc.com.ico
+          url: https://www.beesdc.com/
+          description: 稳定的内网穿透工具，无需设置路由器端口映射即可外网访问内网服务器
+    - term: 代理软件
+      links:
+        - title: v2rayN
+          logo: v2rayn.uk.png
+          url: https://v2rayn.uk/
+          description: v2rayN 是一款跨平台的图形化代理客户端，支持 Windows、Linux 和 macOS 操作系统
+        - title: Clash
+          logo: clash.top.png
+          url: https://clash.top/
+          description: Clash是一个跨平台的基于规则的代理工具，在网络和应用层运行，它已被互联网用户广泛采用
+        - title: Mihomo
+          logo: mihomo.party.ico
+          url: https://mihomo.party/
+          description: 一个更易用的客户端，支持Windows、Mac、Linux
+        - title: Clash Nyanpasu
+          logo: nyanpasu.ico
+          url: https://nyanpasu.elaina.moe/
+          description: Clash Nyanpasu是基于Tauri的Clash GUI软件，它在Windows、Linux、macOS系统上提供代理服务，支持TUN网卡模式
+        - title: FlyClash
+          logo: FlyClash.png
+          url: https://github.com/GtxFury/FlyClash
+          description: FlyClash是一个基于Mihomo(Clash)内核的现代化代理客户端，拥有美观的界面和强大的功能
+        - title: FlClash
+          logo: FlClash.ico
+          url: https://github.com/chen08209/FlClash
+          description: 基于 ClashMeta 的多平台代理客户端，简单易用，开源无广告，支持PC端和Android
+        - title: Sing-Box
+          logo: singbox.win.ico
+          url: https://singbox.win/
+          description: sing-box是免费跨平台代理软件，客户端支持Windows、Mac、Android、iOS和AppleTV等平台上使用
+        - title: Goproxy
+          logo: goproxy.png
+          url: https://github.com/snail007/goproxy-cn
+          description: 一款轻量级、功能强大、高性能的代理软件
+    - term: Vpn节点
+      links:
+        - title: Lray
+          logo: lray.io.svg
+          url: https://lray.io/
+          description: 无限制畅享全球网络加速，获取与全球数百内容供应商互联的网络加速服务高达2000Mbps的单线接入能力
+        - title: NanoCloud
+          logo: edu.uodoo.bid.ico
+          url: https://edu.uodoo.bid/
+          description: 畅享高清视频体验，￥10.00/月
+        - title: 南部隧道
+          logo: ss.nbsd.us.ico
+          url: https://ss.nbsd.us/auth/login
+          description: 120G，100Mbps端口速率，全球节点分布，￥12.90/月，官网【南部隧道666.com】
+        - title: TaiShan Net
+          logo: TaiShanNet.svg
+          url: https://jpcdn.ts2025.top/
+          description: SSR协议中转+专线机场，IPLC节点，￥8.50/月，官网【jp.taishan.pro】
+        - title: 好好云
+          logo: 52hhy.com.svg
+          url: https://52hhy.com/
+          description: 100G，助力全球网络畅游，￥10.00/月
+        - title: 追云加速
+          logo: none.png
+          url: https://zhuiyunjiasu.com/
+          description: 已开4年，套餐低至8元，￥8.00/月
+        - title: 优信云
+          logo: 优信云.png
+          url: https://www.优信云.com/
+          description: 稳定的Trojan加速服务，￥15.00/月
+        - title: 淘气兔
+          logo: taoqitu.me.ico
+          url: https://taoqitu.me/
+          description: 可选按量/按时套餐，￥7.40/月
+        - title: 青云梯
+          logo: qytaff.pro.jpg
+          url: https://qytaff.pro/
+          description: 五年老牌专线机场，￥8.00/月
+        - title: 龙猫云
+          logo: qytaff.pro.jpg
+          url: https://a10.lml2vipaff01.cc/login/
+          description: 稳定可靠，畅游互联网，￥15.00/月
+        - title: xxyun加速
+          logo: xxvip.shop.png
+          url: https://www.xxvip.shop/
+          description: 自由、安全、稳定的网络加速，￥8.88/月，永久官网【xxyun.de】保存防丢
+        - title: Tyty
+          logo: none.png
+          url: https://tytycloud.pro/
+          description: 在Google打广告雄厚实力的机场，￥14.00/月
+    - term: 网络测试
+      links:
+        - title: 网速测试-测网速
+          logo: www.speedtest.cn.ico
+          url: https://www.speedtest.cn
+          description: 测速网提供免费在线网速测试
+        - title: 网易DNS检测工具
+          logo: none.png
+          url: https://nstool.netease.com
+          description: 网易本地DNS检测工具，打开自动获取当前网络地址并进行DNS判断
+        - title: 高精度IP定位
+          logo: www.opengps.cn.ico
+          url: https://www.opengps.cn/Data/IP/LocHighAcc.aspx
+          description: LBS，位置服务开发共享，ip定位，高精度IP定位，wifi定位，基站定位，浏览器HTML定位等技术交流共享
+        - title: IPv6网络检测小工具
+          logo: test-ipv6.com.ico
+          url: https://test-ipv6.com
+          description: IPv6网络检测小工具
+        - title: 阿里云域名DNS诊断工具
+          logo: zijian.aliyun.com.ico
+          url: https://zijian.aliyun.com
+          description: 阿里云DNS诊断、拔测
+        - title: BestTrace 客户端工具
+          logo: www.ipip.net.ico
+          url: https://www.ipip.net/product/client.html#besttrace
+          description: 从 Windows MACAndroidiOSLinux设备上发起 traceroute 请求，附带链路可视化
+        - title: TraceRoute路由查询
+          logo: tools.ipip.net.ico
+          url: https://tools.ipip.net/traceroute.php
+          description: 最好的TraceRoute工具，在线TraceRoute工具
+        - title: IP地址查询
+          logo: ip.skk.moe.ico
+          url: https://ip.skk.moe
+          description: IP地址查询官网入口网址，一个全方位的IP查询工具，除了基本的IP查询功能外，还提供了一系列实用的网络工具
+        - title: 在线查IP地址
+          logo: www.sojson.com.ico
+          url: https://www.sojson.com/ip
+          description: 在线查IP地址详细到门牌号，...
+        - title: 域名DNS检测工具
+          logo: www.sojson.com.ico
+          url: https://www.sojson.com/zz/checkdns.html
+          description: 域名DNS检测工具
+        - title: IP批量查询
+          logo: none.png
+          url: http://www.jsons.cn/ipbatch
+          description: 一行一个，IP地址批量查询
+        - title: IPv6 Test
+          logo: none.png
+          url: https://www.testipv6.net/cn/website
+          description: 测试你您的浏览器和网络是否...
