@@ -11,14 +11,14 @@
       logo: 哔哩哔哩.png
       url: https://www.bilibili.com/
       description: Bilibili 视频弹幕网站
+    - title: 萌娘百科
+      logo: 萌娘百科.png
+      url: https://zh.moegirl.org.cn/
+      description: 万物皆可萌的百科全书
     - title: QQ 邮箱
       logo: qq邮箱.png
       url: http://mail.qq.com/
       description: 腾讯 QQ 邮箱。
-    - title: 开源中国
-      logo: 开源中国.jpg
-      url: https://www.oschina.net/
-      description: 中文开源技术交流社区。
     - title: 搜狗微信
       logo: 搜狗微信.jpg
       url: https://weixin.sogou.com/
@@ -63,6 +63,10 @@
           logo: 微信公众号.png
           url: https://mp.weixin.qq.com/
           description: 再小的个体也有自己的品牌
+        - title: 开源中国
+          logo: 开源中国.jpg
+          url: https://www.oschina.net/
+          description: 中文开源技术交流社区
     - term: 云服务器
       links:
         - title: 阿里云
@@ -115,60 +119,44 @@
           logo: Doocs.png
           url: https://doocs.github.io
           description: 专注于分享技术领域相关知识
-
-
-- taxonomy: 科研办公
-  icon: fas fa-flask fa-lg
-  list:
-    - term: 生物信息
+    - term: 开发辅助
       links:
-        - title: NCBI
-          logo: ncbi.jpg
-          url: https://www.ncbi.nlm.nih.gov/
-          description: National Center for Biotechnology Information.
-        - title: Bioconda
-          logo: bioconda.jpg
-          url: https://anaconda.org/bioconda/
-          description: "Bioconda :: Anaconda.org."
-        - title: CPAN
-          logo: cpan.jpg
-          url: https://metacpan.org/
-          description: Search the CPAN.
-        - title: Galaxy Project
-          logo: galaxy_project.png
-          url: https://galaxyproject.org/
-          description: Galaxy Community Hub.
-        - title: R Project
-          logo: r-project.jpg
-          url: https://www.r-project.org/
-          description: https://www.r-project.org
-        - title: Bioconductor
-          logo: bioconductor.jpg
-          url: http://www.bioconductor.org/
-          description: http://www.bioconductor.org
-    - term: 办公学习
-      links:
-        - title: 有道词典
-          logo: 有道词典.png
-          url: https://www.youdao.com/
-          description: 免费，即时的多语种在线翻译。
-        - title: 有道翻译
-          logo: 有道词典.png
-          url: http://fanyi.youdao.com/
-          description: 有道翻译。
-        - title: 谷歌翻译
-          logo: 谷歌翻译.jpg
-          url: https://translate.google.cn/
-          description: 谷歌翻译。
-        - title: ProcessOn
-          logo: ProcessOn.png
-          url: https://www.processon.com/
-          description: 免费在线作图、实时协作。
+        - title: 正则表达式测试
+          logo: tool.openi.cn.png
+          url: https://tool.openi.cn/regex
+          description: 正则表达式测试工具，提供正则表达式验证及测试
+        - title: 在线文本比较工具
+          logo: www.jq22.com.ico
+          url: https://www.jq22.com/textDifference
+          description: 在线文本比较工具
+        - title: JS/HTML格式化
+          logo: tool.chinaz.com.ico
+          url: https://tool.chinaz.com/tools/jsformat.aspx
+          description: 可以把混乱的代码进行分行，整齐的显示出来
+        - title: 可视化数据算法
+          logo: visualgo.net.ico
+          url: https://visualgo.net/zh
+          description: 一个在线数据结构和算法动态可视化 — 数据算法
+        - title: JS美化
+          logo: none.png
+          url: https://beautifier.io
+          description: 好用多设置的JS美化在线工具
+        - title: JSON解析
+          logo: www.sojson.com.ico
+          url: https://www.sojson.com
+          description: SO JSON出品
+        - title: 高手工具
+          logo: c.p2hp.com.ico
+          url: https://c.p2hp.com
+          description: 在线PHP、Python、 CSS、JS 调试，中文简繁体转换，进制转换等工具
 
 
 - taxonomy: 悠闲娱乐
   icon: fas fa-film fa-lg
   list:
+    - term: 动漫番剧
+    - term: 漫画资源
+    - term: 游戏资源
     - term: 社交媒体
       links:
         - title: 知乎
@@ -245,6 +233,10 @@
           logo: 路飞影视.webp
           url: https://www.langhai.net/langhai/info/lufys.com
           description: 路飞影视- 专为海外华人打造的高清影院
+        - title: 音乐序章
+          logo: yinyue.pro.ico
+          url: https://www.yinyue.pro/
+          description: 开源网易云音乐播放器，支持搜索、播放、歌词同步和个人歌单管理
     - term: 游戏竞技
       links:
         - title: 百度贴吧
@@ -637,7 +629,6 @@
           url: https://www.gaoding.com
           logo: gaoding.png
           description: 免费在线抠图软件,图片快速换背景-抠白底图。
-
     - term: 谷歌插件
       links:
         - title: wappalyzer
@@ -666,79 +657,276 @@
           description: Discover the world's most beautiful places at every opened tab.
 
 
-- taxonomy: 资讯学习
+- taxonomy: 在线工具
   icon: fas fa-pencil-alt fa-lg
   list:
-    - term: 资讯书籍
+    - term: 翻译工具
       links:
-        - title: 微信读书
-          url: https://weread.qq.com/
-          logo: 微信读书.jpg
-          description: 微信读书电脑版。
-        - title: 书栈网
-          url: https://www.bookstack.cn/
-          logo: 书栈网.jpg
-          description: IT 互联网开源编程书籍免费阅读与下载。
-    - term: 博客论坛
+        - title: 有道翻译
+          logo: 有道翻译.png
+          url: https://fanyi.youdao.com
+          description: 有道翻译提供即时免费的中文、英语、日语、韩语、法语、德语、俄语、西班牙语、葡萄牙语、越南语、印尼语、意大利语、荷兰语、泰语全文翻译、网页翻译、文档翻译服务
+        - title: 秘塔翻译
+          logo: metaso.png
+          url: https://fanyi.metaso.cn/
+          description: 专注于法律翻译，为法律人训练的机器翻译系统
+        - title: Google 翻译
+          logo: google.translate.png
+          url: https://translate.google.cn
+          description: Google 的免费翻译服务可提供简体中文和另外 100 多种语言之间的互译功能，可让您即时翻译字词、短语和网页内容
+        - title: OpenL – 强大的AI驱动翻译工具
+          logo: openl.io.png
+          url: https://openl.io
+          description: OpenL - 强大的AI驱动翻译工具官网入口网址，OpenL - 强大的AI驱动翻译工具; OpenL是一款基于人工智能技术的翻译工具，能够无缝地在不同语言之间进行文本翻译
+        - title: 沉浸式翻译-双语对照网页翻译 & PDF 翻译
+          logo: immersivetranslate.com.png
+          url: https://immersivetranslate.com
+          description: 备受欢迎的双语对照网页翻译插件沉浸式翻译-双语对照网页翻译 &amp; PDF 翻译官网入口网址
+    - term: 在线网站
       links:
-        - title: Inoreader
-          url: https://www.inoreader.com/
-          logo: inoreader.jpg
-          description: 重新掌控你的新闻订阅源。
-        - title: Hacker News
-          url: https://news.ycombinator.com/
-          logo: hacker-news.jpg
-          description: 一家关于计算机黑客和创业公司的社会化新闻网站。
-        - title: 经管之家
-          url: https://bbs.pinggu.org/
-          logo: 经管之家.jpg
-          description: 国内活跃的经济、管理、金融、统计在线教育和咨询网站。
-        - title: 阮一峰的网络日志
-          url: http://www.ruanyifeng.com/blog/
-          logo: 阮一峰.png
-          description: 阮一峰，科技爱好者周刊。
-        - title: 酷壳
-          url: https://www.coolshell.cn/
-          logo: ''
-          description: 酷 壳 – CoolShell。
-    - term: 设计规范
+        - title: OpenI AI中文版
+          logo: chat.openi.cn.jpg
+          url: https://chat.openi.cn
+          description: DeepSeek R1在线体验，预置超多文案及绘画Prompt
+        - title: PDF24tools
+          logo: tools.pdf24.org.png
+          url: https://tools.pdf24.org/zh
+          description: PDF24tools网站其中包含的PDF功能全面，功能强大，包括PDF转PPT，PDF压缩，PDF编辑，PDF剪辑，PDF合并等
+        - title: 哔哩哔哩(B站)视频解析下载
+          logo: bilibili.iiilab.com.png
+          url: https://bilibili.iiilab.com
+          description: 支持提取B站APP和bilibili网站上的任何视频,提取出来的视频无水印.我们可以借助此下载器方便地将视频保存到手...
+        - title: 极速接码平台
+          logo: smsjisu.com.png
+          url: https://smsjisu.com
+          description: 本平台可以在线接收短信,接收短信验证码,chatgpt注册,openai验证码接收,+86接码,+86 接码平台,比国外类似短信验证码接收更快捷
+        - title: 云际云短信
+          logo: yunjisms.xyz.png
+          url: https://yunjisms.xyz
+          description: 本平台可以在线接收短信，接收短信验证码，+86接码,+86 接码平台,比国外类似短信验证码接 收更快捷
+        - title: 全民解析
+          logo: timecn.cn.png
+          url: https://www.timecn.cn
+          description: 优酷vip解析，爱奇艺vip解析，腾讯vip解析，乐视vip解析，全网影视vip，芒果vip解析方便广大用户VIP视频服务
+        - title: GitHub加速下载站
+          logo: mirror.ghproxy.com.png
+          url: https://mirror.ghproxy.com
+          description: GitHub加速下载站在线加速下载GitHub，GitHub加速下载站官网入口网址
+        - title: 草料二维码
+          logo: cli.im.ico
+          url: https://cli.im
+          description: 二维码生成，美化，印制，管理，统计等服务
+    - term: 便民查询
       links:
-        - title: Design Guidelines
-          url: http://designguidelines.co/
-          logo: designguidelines.png
-          description: Design Guidelines &mdash; The way products are built.
-        - title: Awesome design systems
-          url: https://github.com/alexpate/awesome-design-systems
-          logo: awesome_design_systems.png
-          description: A collection of awesome design systems.
-        - title: Material Design
-          url: https://material.io/guidelines/
-          logo: Material_Design.png
-          description: Introduction - Material Design.
-        - title: Human Interface Guidelines
-          url: https://developer.apple.com/ios/human-interface-guidelines
-          logo: human_interface_guidelines.png
-          description: Human Interface Guidelines iOS.
-        - title: Photoshop Etiquette
-          url: http://viggoz.com/photoshopetiquette/
-          logo: photoshopetiquette.png
-          description: PS礼仪-WEB设计指南。
-    - term: 视频教程
+        - title: 2023个税计算器
+          logo: none.png
+          url: https://www.geshui.com
+          description: 一个在线计算各种个税缴纳 - 个税网
+        - title: 查照片位置
+          logo: gaitubao.com.png
+          url: https://www.gaitubao.com/exif
+          description: 根据照片查照片中的位置
+        - title: 查公司(企典)
+          logo: dingtalk.com.png
+          url: https://dingtalk.com/qidian
+          description: 钉钉出品的免费企业信息查询工具
+        - title: 查电话
+          logo: 114best.com.png
+          url: http://www.114best.com/tel
+          description: 提供手机及固话电话号码查询，电话号码归属地查询，号码列表大全
+        - title: 查实时天气
+          logo: qweather.com.ico
+          url: https://www.qweather.com
+          description: 和风天气提供全球天气预报、气象可视化、商业化气象服务和天气API数据
+        - title: 查快递
+          logo: kuaidi.com.ico
+          url: https://www.kuaidi.com
+          description: 一键查询物流信息！
+        - title: ip138
+          logo: ip138.com.ico
+          url: https://www.ip138.com
+          description: ip138 简介 ip138 ip地址查...，ip138官网入口网址
+    - term:  效率工具
       links:
-        - title: Photoshop Lady
-          url: http://www.photoshoplady.com/
-          logo: PhotoshopLady.png
-          description: Your Favourite Photoshop Tutorials in One Place.
-        - title: doyoudo
-          url: http://doyoudo.com/
-          logo: doyoudo.png
-          description: 创意设计软件学习平台。
-        - title: 没位道
-          url: http://www.c945.com/web-ui-tutorial/
-          logo: web_ui_tutorial.png
-          description: WEB UI免费视频公开课。
-        - title: 慕课网
-          url: https://www.imooc.com/
-          logo: imooc.png
-          description: 程序员的梦工厂（有UI课程）。
-
+        - title: 记灵在线工具
+          logo: remeins.com.ico
+          url: https://remeins.com
+          description: 记灵在线工具官网入口网址，记灵在线工具，更加专注于生活中常用的，好用的实用性工具
+        - title: 67工具网
+          logo: 67tool.com.jpg
+          url: https://www.67tool.com
+          description: 致力开发即用即走型在线工具，无需客户端在线一键使用
+        - title: 帮小忙
+          logo: tool.browser.qq.com.ico
+          url: https://tool.browser.qq.com
+          description: 提供证件照生成，表情包制作，PDF转换，文字提取，二维码生成，数据校验、照片修复、插件安装等在线服务
+        - title: PDF转Word
+          logo: rtpiysvzwpp.png
+          url: https://tool.browser.qq.com/pdf_2_word.html
+          description: 用户只需要将需要转换格式的文件上传，软件会自动识别PDF文档中的内容，并将其转换为可编辑的Word文档
+        - title: 小红书视频图片去水印
+          logo: xiaohongshu.iiilab.com.jpg
+          url: https://xiaohongshu.iiilab.com
+          description: 永久免费的小红书视频图片下载保存工具,支持保存小红书去水印图片和视频到电脑或手机相册
+        - title: 工具蛙
+          logo: toolwa.com.png
+          url: https://toolwa.com
+          description: 工具蛙
+        - title: 图片转PPT
+          logo: 20cg1sznquj.png
+          url: https://tool.browser.qq.com/img_2_ppt.html
+          description: 图片转ppt产品是一款在线的图片转换工具，可以将各种类型的图片(包括高清图片、JPG、GIF等)，从而实现即插即用
+        - title: 仿站在线工具（爱资料）
+          logo: www.toolnb.com.ico
+          url: https://www.toolnb.com/tools/fangzhan.html
+          description: 适用于SEO、前端人员的高效仿站工具
+        - title: 程序员的工具箱
+          logo: tool.lu.ico
+          url: https://tool.lu
+          description: 在线工具
+        - title: lmcjl在线工具
+          logo: www.lmcjl.com.png
+          url: https://www.lmcjl.com
+          description: lmcjl在线工具致力于打造和收集各种简单、易用、便捷、免安装、自动化的在线工具
+    - term: 解析下载
+      links:
+        - title: 哔哩哔哩(B站)视频解析下载
+          logo: bilibili.iiilab.com.png
+          url: https://bilibili.iiilab.com
+          description: 支持提取B站APP和bilibili网站上的任何视频,提取出来的视频无水印.我们可以借助此下载器方便地将视频保存到手...
+        - title: GitHub加速下载站
+          logo: mirror.ghproxy.com.png
+          url: https://mirror.ghproxy.com
+          description: GitHub加速下载站在线加速下载GitHub，GitHub加速下载站官网入口网址
+        - title: 唧唧down
+          logo: www.jijidown.com.ico
+          url: https://www.jijidown.com
+          description: B站视频解析下载工具，唧唧down官网入口网址
+        - title: 视频解析器
+          logo: www.ittansuo.com.ico
+          url: https://www.ittansuo.com
+          description: 视频无水印解析下载工具，视频解析器官网入口网址
+        - title: 下载狗解析工具
+          logo: www.xiazaitool.com.ico
+          url: https://www.xiazaitool.com
+          description: 下载狗工具支持全网100+主流网站视频无水印下载，下载狗解析工具官网入口网址
+        - title: GreenVideo
+          logo: greenvideo.cc.ico
+          url: https://greenvideo.cc
+          description: GreenVideo 视频下载，免费、稳定、速度快，支持1000+海量视频平台的下载
+        - title: FetchV 视频下载扩展
+          logo: none.png
+          url: https://fetchv.net/zh-cn
+          description: 支持一键下载包括 m3u8 等常见格式的网页视频，嗅探下载之后会自动转换为 mp4 格式
+        - title: Ins图片视频下载
+          logo: ins.popmars.com.ico
+          url: https://ins.popmars.com
+          description: Instagram图片/视频下载
+        - title: datatool.vip
+          logo: www.datatool.vip.ico
+          url: https://www.datatool.vip/zh
+          description: DataTool.vip是一个旨在简化从各种网站下载音频、视频和其他文件的服务
+    - term: 网络工具
+      links:
+        - title: 网速测试-测网速
+          logo: www.speedtest.cn.ico
+          url: https://www.speedtest.cn
+          description: 测速网提供免费在线网速测试
+        - title: 网易DNS检测工具
+          logo: none.png
+          url: https://nstool.netease.com
+          description: 网易本地DNS检测工具，打开自动获取当前网络地址并进行DNS判断
+        - title: 高精度IP定位
+          logo: www.opengps.cn.ico
+          url: https://www.opengps.cn/Data/IP/LocHighAcc.aspx
+          description: LBS，位置服务开发共享，ip定位，高精度IP定位，wifi定位，基站定位，浏览器HTML定位等技术交流共享
+        - title: IPv6网络检测小工具
+          logo: test-ipv6.com.ico
+          url: https://test-ipv6.com
+          description: IPv6网络检测小工具
+        - title: 阿里云域名DNS诊断工具
+          logo: zijian.aliyun.com.ico
+          url: https://zijian.aliyun.com
+          description: 阿里云DNS诊断、拔测
+        - title: BestTrace 客户端工具
+          logo: www.ipip.net.ico
+          url: https://www.ipip.net/product/client.html#besttrace
+          description: 从 Windows MACAndroidiOSLinux设备上发起 traceroute 请求，附带链路可视化
+        - title: TraceRoute路由查询
+          logo: tools.ipip.net.ico
+          url: https://tools.ipip.net/traceroute.php
+          description: 最好的TraceRoute工具，在线TraceRoute工具
+        - title: IP地址查询
+          logo: ip.skk.moe.ico
+          url: https://ip.skk.moe
+          description: IP地址查询官网入口网址，一个全方位的IP查询工具，除了基本的IP查询功能外，还提供了一系列实用的网络工具
+        - title: 在线查IP地址
+          logo: www.sojson.com.ico
+          url: https://www.sojson.com/ip
+          description: 在线查IP地址详细到门牌号，...
+        - title: 域名DNS检测工具
+          logo: www.sojson.com.ico
+          url: https://www.sojson.com/zz/checkdns.html
+          description: 域名DNS检测工具
+        - title: IP批量查询
+          logo: none.png
+          url: http://www.jsons.cn/ipbatch
+          description: 一行一个，IP地址批量查询
+        - title: IPv6 Test
+          logo: none.png
+          url: https://www.testipv6.net/cn/website
+          description: 测试你您的浏览器和网络是否...
+    - term:
+      links:
+        - title: ImgBB
+          logo: imgbb.com.ico
+          url: https://imgbb.com
+          description: 支持上传 JPG PNG BMP GIF TIF WEBP HEIC PDF 等格式
+        - title: ImgURL免费图床
+          logo: www.imgurl.org.ico
+          url: https://www.imgurl.org
+          description: 老牌的免费图床服务
+        - title: 星辰图床
+          logo: r1ooqyloapm.png
+          url: https://imgmo.com
+          description: 星辰图床, 免费公共图床, 提供图片上传和图片外链服务, 原图保存, 全球CDN加速
+        - title: LOC专用免费图床
+          logo: locimg.com.ico
+          url: https://locimg.com
+          description: LOC专用免费图床官网入口网址，LOC专用免费图床, 无需登陆
+        - title: ImgTP
+          logo: none.png
+          url: https://imgtp.com
+          description: 无需登陆，免费且不压缩图片画质的公共图床平台，支持对接PicGo
+        - title: 聚合图床
+          logo: mvst40lclrw.png
+          url: https://www.superbed.cn
+          description: 聚合图床是一个提供高速外链的免费图床，无限流量，无限外链，全球网络加速
+        - title: TG图床
+          logo: guwuhzo1pw0.png
+          url: https://imgtg.com
+          description: 免费储存并加速你的图片，节点包含中国 CDN 在任何地方快速访问您的图片，高速稳定的图片储存和外链服务
+        - title: imgloc图床
+          logo: imgloc.com.ico
+          url: https://imgloc.com
+          description: imgloc图床官网入口网址，一个简单易用的在线图床服务，允许用户上传和分享图片
+        - title: Catbox
+          logo: catbox.moe.ico
+          url: https://catbox.moe
+          description: 最多允许上传200 MB
+        - title: 兔兔图床
+          logo: tutu.to.ico
+          url: https://tutu.to
+          description: 兔兔图床官网入口网址，最大可上传 10.00 MB (注册用户 20.00 MB) 的图片。上传队列最多 10 张
+        - title: 即刻图床
+          logo: none.png
+          url: https://jiketuchuang.com
+          description: 大厂全球CDN加速,支持外链,不限流量,支持粘贴上传、拖放上传，即刻图床官网入口网址
+        - title: Postimages
+          logo: postimages.org.ico
+          url: https://postimages.org
+          description: 提供免费的图片上传和论坛主办的整合。免费图片托管和照片共享网站和博客
+        - title: 图片映客
+          logo: img.ink.ico
+          url: https://img.ink
+          description: 图片映客官网入口网址，水墨图床，免费专业的高速外链图床-免费高速图床-致力于创建一流的图片加速空间
